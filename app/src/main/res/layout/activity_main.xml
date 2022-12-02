@@ -12,7 +12,7 @@
         android:layout_height="120dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:src="@drawable/kc_logo"
+        android:src="@drawable/luv"
         />
 
     <TextView
