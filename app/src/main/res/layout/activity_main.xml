@@ -16,7 +16,7 @@
         />
 
     <TextView
-        android:id="@+id/res"
+        android:id="@+id/message"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
@@ -27,32 +27,35 @@
         />
 
     <EditText
-        android:id="@+id/val1"
+        android:id="@+id/eml"
+        android:hint="e-Mail"
         android:inputType="text"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Identifiant"
+        android:text=""
+        android:backgroundTint="@color/black"
         />
 
     <EditText
-        android:id="@+id/val2"
+        android:id="@+id/psw"
+        android:hint="Mot-de-passe"
         android:inputType="textPassword"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Valeur 2"
+        android:text=""
         />
 
     <Button
-        android:id="@+id/b_a"
+        android:id="@+id/b_login"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="+"
+        android:text="Login"
         android:textSize="20dp"
 
         />
