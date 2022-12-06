@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:hint="Veillez entrer les symptomes du patient"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:hint="De quoi souffre le patient"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:hint="Ordonance"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:text="Merci de continuer à nous faire confiance.
+A LA PROCHAIN!"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+</LinearLayout>
