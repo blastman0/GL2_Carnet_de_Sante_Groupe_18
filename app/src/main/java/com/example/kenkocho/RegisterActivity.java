@@ -89,7 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
         if (isEmpty(r_mdp)) {
             r_mdp.setError("Veuillez entrer mot-de-passe,");
         }
-        if (isEmail(r_ml)){
+        if (!isEmail(r_ml)){
             r_ml.setError("Veuillez entrer une adresse valide");
         }
 
