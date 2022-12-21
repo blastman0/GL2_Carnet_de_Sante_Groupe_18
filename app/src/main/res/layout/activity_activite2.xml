@@ -13,109 +13,131 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
+        android:textAlignment="center"
         android:text="Veillez s'il vous plait entrer les informations du patient"
         android:textSize="20dp"
-        android:textAlignment="center"
         />
 
 
-    <EditText
-
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="Veillez entrer le nom du patient"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        android:layout_marginTop="25dp"
-        android:inputType="text"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/p_nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="Nom"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textSize="20dp"
 
 
-        />
+                />
+
+            <EditText
+                android:id="@+id/p_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="Prenom"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textSize="20dp"
 
 
-    <EditText
+                />
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint=" Veillez entrer le prenom du patient"
-        android:textSize="20dp"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:inputType="text"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="Âge"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="20dp" />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="Poids (Kg)"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="20dp"
 
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Veillez s'il vous plait entrer l'age du patient  "
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:inputType="number"/>
+                />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:inputType="number"
+                android:hint="Taille (Mètres)"
+                android:textAlignment="center"
+                android:textSize="20dp"
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Veillez s'il vous plais entrer le poids du patient en Kg"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:inputType="number"
+                />
 
-        />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="veillez s'il vous plait entrer la date du jour"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textSize="20dp" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Veillez s'il vous plais entrer la taille du patient en Mètre.
-         Exemple: 1,7 M"
-        android:layout_marginTop="25dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:textAlignment="center"
-        android:textSize="20dp"
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/veillez_entrer_la_dare_l_heur_d_enregistrement"
+                android:inputType="datetime"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText" />
 
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:textSize="20dp"
-        android:hint="veillez s'il vous plait entrer la date du jour"
-        android:inputType="date" />
+            <Button
+                android:id="@+id/b_next"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Next"
+                android:textSize="20dp"
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:textSize="20dp"
-        android:hint="@string/veillez_entrer_la_dare_l_heur_d_enregistrement"
-        android:inputType="datetime"
-        tools:ignore="HardcodedText" />
-
+                />
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>
