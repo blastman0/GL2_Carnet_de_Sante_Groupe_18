@@ -100,39 +100,14 @@
 
                 />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="25dp"
-                android:hint="veillez s'il vous plait entrer la date du jour"
-                android:inputType="date"
-                android:textAlignment="center"
-                android:textSize="20dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="25dp"
-                android:hint="@string/veillez_entrer_la_dare_l_heur_d_enregistrement"
-                android:inputType="datetime"
-                android:textAlignment="center"
-                android:textSize="20dp"
-                tools:ignore="HardcodedText" />
-
             <Button
                 android:id="@+id/b_next"
-                android:layout_width="100dp"
+                android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Next"
+                android:text="Suivant"
                 android:textSize="20dp"
 
                 />

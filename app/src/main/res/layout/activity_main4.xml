@@ -19,12 +19,52 @@
 
         />
     <TextView
+        android:id="@+id/tv_nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:text=""
+        android:text="Nom, Prénom"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tv_diag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Diagnostic"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tv_ord"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Ordonnance"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Date"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Merci, et prenez soin de vous !"
         android:textSize="25dp"
         />
 
